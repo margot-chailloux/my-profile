@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body  {
+	background-color: white;
+}
+
+.container {
+	width: auto;
+	height: 500px;
+	background-color: #78A8D3;
+	display: flex;
+}
+
+.container img {
+	height: 450px;
+	width: 300px;
+	border: solid 5px;
+	border-radius: 100px;
+	position: absolute;
+	top: 20px;
+	left: 100px;
+}
+
+.container h1 {
+	font-size: 50px;
+	font-family: dubai;
+	position: absolute;
+	top: 150px;
+	left: 50%
+}	
+
+.container p {
+	font-size: 30px;
+	font-family: dubai;
+	position: absolute;
+	top: 250px;
+	left: 30%;
+}
+
+@media screen and (max-width: 1400px) {
+	.container p {
+		position: absolute;
+		top: 250px;
+		left: 40%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.container p {
+		position: absolute;
+		top: 250px;
+		left: 50%;
+	}
+}
+
+.container a {
+	font-size: 30px;
+	font-family: dubai;
+	position: absolute;
+	top: 400px;
+	left: 50%;
+}
+
+.container a:hover {
+	margin-top: 10px;
+	transition: 0.8s;
+}
+
+h2 {
+	text-align: center;
+	text-shadow: 4px 4px 5px #C7E0F3;
+	font-size: 50px;
+	font-family: century gothic;
+	color: white;
+	background-color: #2D5C80;
+	padding: 30px;
+}
+
+#volley {
+	text-align: center;
+	font-family: dubai;
+	font-size: 30px;
+	color: black;
+	background-color: #78A8D3;
+	padding: 40px;
+}
+
+h3 {
+	text-align: center;
+	text-shadow: 4px 4px 5px #C7E0F3;
+	font-size: 50px;
+	font-family: century gothic;
+	color: white;
+	background-color: #2D5C80;
+	padding: 30px;
+}
+
+#music {
+	text-align: center;
+	font-family: dubai;
+	font-size: 30px;
+	color: black;
+	background-color: #78A8D3;
+	padding: 40px;
+}
+
+h4 {
+	text-align: center;
+	text-shadow: 4px 4px 5px #C7E0F3;
+	font-size: 50px;
+	font-family: century gothic;
+	color: white;
+	background-color: #2D5C80;
+	padding: 30px;
+}
+
+#travelling {
+	text-align: center;
+	font-family: dubai;
+	font-size: 30px;
+	color: black;
+	background-color: #78A8D3;
+	padding: 40px;
+}
+
+h5 {
+	text-align: center;
+	text-shadow: 4px 4px 5px #C7E0F3;
+	font-size: 50px;
+	font-family: century gothic;
+	color: white;
+	background-color: #2D5C80;
+	padding: 30px;
+}
+
+.container2 {
+	width: auto;
+	height: 250px;
+	background-color: #78A8D3;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container2 img {
+	align-items: center;
+	height: 150px;
+	width: 150px;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+
+
+
+
